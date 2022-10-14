@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cruds.css">
+    <title>CRUDS PAGE</title>
+</head>
+<body>
+    <div class="container">
+        <h1>CRUDS</h1>
+        <h3>create read update delete search</h3>
+        <input type="text" placeholder="title" id="title" class="glass">
+        <div>
+            <input onkeyup="getTotal()" type="number" placeholder="price" id="price" class="glass">
+            <input onkeyup="getTotal()" type="number" placeholder="taxes" id="taxes" class="glass">
+            <input onkeyup="getTotal()" type="number" placeholder="ads" id="ads" class="glass">
+            <input onkeyup="getTotal()" type="number" placeholder="discount" id="discount" class="glass">
+            <div id="total"></div>
+        </div>
+        <input type="number" placeholder="count" id="count" class="glass">
+        <input type="text" placeholder="category" id="category" class="glass"> 
+        <button onclick="createProduct()" id="create">create</button>
+        <input onkeyup="searchProduct(this.value)" type="text" placeholder="search" id="search" class="glass">
+        <div>
+            <button onclick="searchClick(this.id)" id="searchTitle">search title</button>
+            <button onclick="searchClick(this.id)" id="searchCategory">search category</button>
+        </div>
+        <button id="deleteAll" onclick="clearAllData()">deleteAll</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>title</th>
+                    <th>price</th>
+                    <th>taxes</th>
+                    <th>ads</th>
+                    <th>discount</th>
+                    <th>total</th>
+                    <th>category</th>
+                    <th>update</th>
+                    <th>delete</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                
+            </tbody>
+        </table>
+
+
+    </div>
+    <script src="/cruds.js"></script>
+</body>
+</html>
