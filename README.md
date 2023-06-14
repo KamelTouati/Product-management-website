@@ -34,7 +34,7 @@ This is a website that allows you to manage products. It provides functionality 
 
 ![website interface0](screenshots/0.PNG)
 
-![website interface1](screenshots/0.PNG)
+![website interface1](screenshots/1.PNG)
 
 ## Contributions
 
