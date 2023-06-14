@@ -32,9 +32,9 @@ This is a website that allows you to manage products. It provides functionality 
 
 ## Screenshots
 
-![website interface0](screenshots/0.png)
+![website interface0](screenshots/0.PNG)
 
-![website interface1](screenshots/1.png)
+![website interface1](screenshots/0.PNG)
 
 ## Contributions
 
