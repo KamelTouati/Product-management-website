@@ -12,13 +12,13 @@ This is a website that allows you to manage products. It provides functionality 
 
 ## Technologies Used
 
-- <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>: Provides the structure and layout of web pages.
+- <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> : Provides the structure and layout of web pages.
 - <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/></a> : Styles and enhances the visual presentation of the website.
-- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>: Implements dynamic interactivity and handles the CRUD operations and search functionality.
+- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a> : Implements dynamic interactivity and handles the CRUD operations and search functionality.
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/KamelTouati/CRUD-project`
+1. Clone the repository: `git clone https://github.com/KamelTouati/Product-Management-Website`
 2. Navigate to the project directory: `cd cruds project`
 3. Open the `cruds.html` file in your preferred web browser.
 
@@ -32,11 +32,9 @@ This is a website that allows you to manage products. It provides functionality 
 
 ## Screenshots
 
-![website interface0](screenshots/product_list.png)
-*Screenshot: Product list displaying existing products.*
+![website interface0](screenshots/0.png)
 
-![website interface1](screenshots/create_product.png)
-*Screenshot: Create product form to add a new product.*
+![website interface1](screenshots/1.png)
 
 ## Contributions
 
